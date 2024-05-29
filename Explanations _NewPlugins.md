@@ -19,7 +19,7 @@ The <code>forecast</code> plugin predicts future listing prices for the next few
 <li>For <strong>trend_analysis</strong>, prompt:
 <pre><code>Analyze housing market trends for New York.</code></pre>
 This command outputs a summary of housing price trends.</li>
-<li>For <strong>forecast, prompt:</strong>
+<li>For <strong>forecast</strong>, prompt:
 <pre><code>Forecast listing price in next 3 months of houses in New York.</code></pre>
 Adjust the time frame if needed.</li>
 </ol>
