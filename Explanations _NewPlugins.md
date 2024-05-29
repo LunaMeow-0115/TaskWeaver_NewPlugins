@@ -15,10 +15,10 @@ The <code>forecast</code> plugin predicts future listing prices for the next few
 <ol>
 <li>Update the <code>project/taskweaver_config.json</code> with your OpenAI API key and preferred model type.</li>
 <li>To run the plugins, execute the following command from the project root: <pre><code>python -m taskweaver -p ./project/</code></pre></li>
-<li><strong>For Trend Analysis:</strong>
+<li><strong>For <strong>trend_analysis</strong>, prompt:</strong>
 <pre><code>Analyze housing market trends for New York.</code></pre>
 This command outputs a summary of housing price trends.</li>
-<li><strong>For Forecasting:</strong>
+<li><strong>For <strong>forecast</strong>, prompt:</strong>
 <pre><code>Forecast listing price in next 3 months of houses in New York.</code></pre>
 Adjust the time frame if needed.</li>
 </ol>
