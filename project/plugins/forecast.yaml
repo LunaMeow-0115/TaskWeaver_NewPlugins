@@ -1,0 +1,16 @@
+name: forecast
+enabled: true
+required: false
+description: Provides forecast for list prices using SARIMAX model based on historical data for houses in New York.
+examples:
+  forcast_result = forecast(forecast_steps=3)
+parameters:
+  - name: forecast_steps
+    type: int
+    required: false
+    default: 3
+    description: Forcast listing prices in next 3 months for houses in New York.
+returns:
+  - name: forecast_string
+    type: str
+    description: A table of forecasted months and the predictions of list prices in New York.

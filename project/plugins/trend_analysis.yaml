@@ -1,0 +1,16 @@
+name: trend_analysis
+enabled: true
+required: false
+description: Analyzes housing market trends for New York using historical sales and inventory data. The analysis returns a detailed textual description.
+examples:
+  trend_description = trend_analysis(city="New York")
+parameters:
+  - name: city
+    type: str
+    required: false
+    default: "New York"
+    description: City name for which the analysis is to be performed. Default is New York.
+returns:
+  - name: description
+    type: str
+    description: A detailed textual representation of the housing market trends, summarizing the findings.

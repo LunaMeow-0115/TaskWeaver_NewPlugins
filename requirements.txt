@@ -24,6 +24,3 @@ pytest>=7.0.0
 vcrpy>=5.0.0
 colorama>=0.4.6
 
-
-
-
