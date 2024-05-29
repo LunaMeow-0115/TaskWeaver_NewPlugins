@@ -7,6 +7,7 @@ View a demo of the plugins in action <a href="https://drive.google.com/file/d/1_
 <h2>Overview of Plugins</h2>
 <h3>1. Trend Analysis Plugin</h3>
 The <code>trend_analysis</code> plugin provides insights into quarter-to-quarter trends of listing prices for New York housing from 2021-03-31 to 2024-04-30. Due to limitations in file reading capabilities within the TaskWeaver environment, the data is hardcoded, and so the plugin can only predict data for New York. However, the linear regression model is capable of analyzing and predicting trends across various states and time periods technically.
+Additionally, Zillow Group refused my request of requrieing an api key for their Econ Data, so I could not create a plugin using api to require the latest pricing data for New York.
 
 <h3>2. Forecast Plugin</h3>
 The <code>forecast</code> plugin predicts future listing prices for the next few months (you can input the number of months you want to forecast) using a RandomForestRegressor model, selected due to compatibility issues with importing the Statsmodels package for SARIMAX modeling. However, the SARIMAX model's results (which are more accurate) and codes are attacted in the comment.
